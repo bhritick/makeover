@@ -1,0 +1,306 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+        #hero {
+            background-image: url(https://images.pexels.com/photos/3738348/pexels-photo-3738348.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #hero div.container {
+            padding: 150px 0px;
+        }
+        
+        #queen {
+            background-image: url(https://images.pexels.com/photos/5738735/pexels-photo-5738735.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #queen div.container {
+            padding: 150px 0px;
+        }
+        
+        #her {
+            background-color: rgb(240, 244, 255);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #her div.container {
+            padding: 100px 0px;
+        }
+        
+        #him {
+            background-color: rgb(16, 205, 238);
+            background-position: center;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: #131414 !important;
+        }
+        
+        #hero2 {
+            background-color: rgb(21, 21, 22);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #him1 {
+            background-color: rgb(16, 131, 238);
+        }
+        
+        #header-video {
+            background-size: cover;
+        }
+        
+        #hero div.container {
+            padding: 150px 0px;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://img.freepik.com/free-vector/law-office_497289-40.jpg?w=740" alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activity.html">activity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-5" data-bs-ride="carousel">
+
+                        <div class="carousel-inner shadow">
+                            <div class="carousel-item carousel-item-next carousel-item-start">
+                                <h4 class="display-5 text-light">Best in business and highly efficient artist</h4>
+                                <a class="btn btn-primary my-4 py-2 px-4 " href="tel:919433815504" role="button">
+                                    <span class="px-2">learn more</span>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wave-bg2 " id="her">
+        <div class="container">
+            <div class="row">
+                <h4 class="display-5 text-center mb-5">Our Services</h4>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 ">
+                        <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Hair Makeover Men</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove .</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card bg-yellow rounded-0 border-0 ">
+                        <img src="https://images.pexels.com/photos/1654834/pexels-photo-1654834.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Hair Makeover Woman</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove .</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 border-0">
+                        <img src="https://images.pexels.com/photos/3059404/pexels-photo-3059404.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Face Makeover</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove .</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="her">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img class="img-fluid shadow" src="https://images.pexels.com/photos/973402/pexels-photo-973402.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" height="500" width="500">
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <h4 class="display-5 ">Our Services</h4>
+                        <p class="lead">More than 5 year experience in this profession</p>
+                        <hr class="my-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quisque adipiscing lobortis aptent cras et
+                            justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quisque adipiscing lobortis aptent
+                            cras et justo.</p>
+                        <div class="text-center ">
+                            <a href="contact.html" class="btn btn-primary rounded-pill px-5 shadow-none">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wave-bg2 " id="her">
+        <div class="container">
+            <div class="row">
+                <h4 class="display-5 text-center mb-5">Gallery</h4>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 ">
+                        <img src="https://images.pexels.com/photos/3148935/pexels-photo-3148935.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card bg-yellow rounded-0 border-0 ">
+                        <img src="https://images.pexels.com/photos/973405/pexels-photo-973405.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 border-0">
+                        <img src="https://images.pexels.com/photos/3059404/pexels-photo-3059404.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="her">
+        <div class="container-fluid my-5">
+            <div class="row">
+                <h4 class="display-5 text-center mb-5">Our Vedios</h4>
+                <div class=" col-md-6 col-12 px-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/xcJtL7QggTI" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-12 px-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/xcJtL7QggTI" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 pt-5">
+            <div class="row">
+
+                <div class="col-md-6 col-12">
+                    <div class="card mb-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207956.23025809138!2d-97.67754665670977!3d35.47172221779327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2174d1b76eb95%3A0x4d73d824ee7636e8!2sRain%20Oklahoma!5e0!3m2!1sen!2sin!4v1626872498030!5m2!1sen!2sin"
+                            style="border:0; width: 100%; height: 180px;" allowfullscreen="" loading="lazy"></iframe>
+                        <div class="card-body">
+                            <h2>Contact Us</h2>
+                            <p>Acme Outdoors<br>123 Rainy Street<br>Oklahoma City, OK 73129 <br>street 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12  ">
+                    <form class="card border border-white border-5 shadow rounded-0 mb-3 px-5 py-4 ">
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <h2>Drop us a line</h2>
+                                <hr>
+                            </div>
+                            <div class=" col-12 ">
+                                <div class="form-group ">
+                                    <label for="fname " class="text-dark my-2 ">👨&zwj;🦱 Name</label>
+                                    <input type="text " class="form-control rounded-0 border-dark shadow-none " id="fname ">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="mailid " class="text-dark my-2 ">📬 Email address</label>
+                                    <input type="email " class="form-control rounded-0 border-dark  shadow-none " id="mailid ">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="telno " class="text-dark my-2 ">📲 Mobile number</label>
+                                    <input type="tel " class="form-control rounded-0 border-dark  shadow-none  " id="telno ">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <p class="text-center text-white pt-3 ">All Rights Reserved © 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+</body>
+
+</html>
